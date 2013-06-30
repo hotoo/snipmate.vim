@@ -119,3 +119,7 @@ snippet warn
 	if(window.console && window.console.warn){window.console.warn(${1});}
 snippet err
 	if(window.console && window.console.error){window.console.error(${1});}
+snippet def
+	define(function(require, exports, module) {
+		${1}
+	});
